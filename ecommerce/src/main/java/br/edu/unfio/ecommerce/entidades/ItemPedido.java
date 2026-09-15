@@ -20,7 +20,7 @@ public class ItemPedido {
  
     private Integer id;
     private Integer quantidade;
-    private BigDecimal valorUnitario;
+    private Integer valorUnitario;
 
     @ManyToOne
     private Pedido pedido;

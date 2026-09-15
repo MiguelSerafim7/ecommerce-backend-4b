@@ -11,7 +11,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
- class Categoria {
+ public class Categoria  {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Short id;
